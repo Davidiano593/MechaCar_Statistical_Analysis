@@ -30,3 +30,14 @@ total_summary <- Suspension %>% summarize(Mean=mean(PSI), Median=median(PSI), Va
 #Lot Summary
 
 lot_summary <- Suspension %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), StDev=sd(PSI))
+
+#Deliverable 3
+
+## T-test 
+t.test(Suspension$PSI, mu=1500)
+
+## individual lots
+
+t.test(subset(Suspension, Manufacturing_Lot=="Lot1")$PSI, mu=1500)
+t.test(subset(Suspension, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
+t.test(subset(Suspension, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
