@@ -1,7 +1,7 @@
 #MechaCar Statistical Analysis
 
 #Deliverable 1
-#Load dplyr
+#dplyr
 
 library(dplyr)
 

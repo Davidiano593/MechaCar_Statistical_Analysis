@@ -52,7 +52,7 @@ Finally the security classification
 
 - What is the null hypothesis or alternative hypothesis?
 
-- For our hypothesis we will test statistically what are the differences in the metrics that we are going to test with the competition.
+For our hypothesis we will test statistically what are the differences in the metrics that we are going to test with the competition.
 The null hypothesis is that the metric measures do not vary significantly with those of the competition and the alternative hypothesis is that the metric measures of our prototype do vary significantly with those of the competition.
 
 - What statistical test would you use to test the hypothesis? And why?
